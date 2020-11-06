@@ -2,12 +2,6 @@
 title: Joining the Social Network
 ---
 
-dBrowser includes a social network of personal websites. We call these websites the ["Profile Drives."](intermediate/your-profile-drive.md) Your profile drive acts as your personal space and your identity on the network. It's also used by applications to publish your content.
-
-:::note
-Every user has a "Profile Hyperdrive" which represents them on the network. [Learn more](intermediate/your-profile-drive.md).
-:::
-
 In this guide, we're going to personalize your profile drive, find some other users to add to your address book, get you listed in dBrowser's User Directory, and say hello on your social media feed.
 
 ---
@@ -22,7 +16,7 @@ You will find your profile drive is very plain. That's because we want you to bu
 
 <img className="centered" src="/img/social-network-profile-1.png" />
 
-[Open the editor](beginner/using-the-editor.md) to see the source code:
+[Open the editor](developers/using-the-editor.md) to see the source code:
 
 ```markup {}
 <!doctype html>
@@ -43,38 +37,9 @@ You will find your profile drive is very plain. That's because we want you to bu
   <style>/* ... */</style>
 </html>
 ```
+Now your visitors have a quick way to follow your site! ([Read more about the dBrowser.contacts API](apis/dbrowser.contacts.md).)
 
-Let's add a button! This button will help other users add your profile drive to [their address book](intermediate/your-address-book.md). Here is the code:
-
-```markup {14,17-21}
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/png" sizes="32x32" href="/thumb">
-  </head>
-  <body>
-    <main>
-      <header>
-        <img src="/thumb">
-        <h1>Your Name</h1>
-      </header>
-      <p>Your Bio</p>
-      <button id="addContact">Add to Address Book</button>
-    </main>
-  </body>
-  <script>
-    addContact.onclick = function () {
-      dBrowser.contacts.requestAddContact(location.toString())
-    }
-  </script>
-  <style>/* ... */</style>
-</html>
-```
-
-Now your visitors have a quick way to follow your site! ([Read more about the dBrowser.contacts API](apis/dBrowser.contacts.md).)
-
-Your profile name, bio, and picture [can be changed using the "Drive Properties" dialog](beginner/changing-a-drive-title-or-thumbnail.md). The profile page won't update automatically, but we can add that!
+Your profile name, bio, and picture [can be changed using the "Drive Properties" dialog](developers/changing-a-ddrive-title-or-thumbnail.md). The profile page won't update automatically, but we can add that!
 
 <img className="centered" src="/img/social-network-profile-2.png" />
 
@@ -110,15 +75,9 @@ Your profile name, bio, and picture [can be changed using the "Drive Properties"
 </html>
 ```
 
-Now your profile drive will read your name and bio on load and display it on the page. ([Read more about the dBrowser.hyperdrive API.](apis/dBrowser.hyperdrive.md))
+Now your profile drive will read your name and bio on load and display it on the page. ([Read more about the dBrowser.ddrive API.](apis/dbrowser.ddrive.md))
 
 ---
-
-## Finding other users
-
-It's feeling pretty lonely in here! Let's find some people to add to [your address book](intermediate/your-address-book.md).
-
-dBrowser maintains a [user directory](https://userlist.dBrowserbrowser.com/). You can find a link to it in the top right of the UI.
 
 <img className="centered" src="/img/user-directory.png" />
 
@@ -136,19 +95,6 @@ To add yourself to the directory, click "+ Add Your Profile." You'll be prompted
 
 ---
 
-## Say hello on your feed
-
-Now that you've added some people to [your address book](intermediate/your-address-book.md), let's say hi on your social media feed.
-
-:::note
-This feed app will be another hyperdrive which reads and writes posts from your profile drive. It lives separately from your profile.
-:::
-
-Visit the "Blahbity Blog" app at this URL:
-```text
-hyper://a8e9bd0f4df60ed5246a1b1f53d51a1feaeb1315266f769ac218436f12fda830/
-```
-
 You'll see the following screen:
 
 <img className="centered" src="/img/my-feed-not-signed-in.png" />
@@ -156,18 +102,15 @@ You'll see the following screen:
 After you select your profile, you'll see posts from people in your address book. Any posts you create will be written to your profile drive under the `/microblog` folder. Posts are Markdown by default (.md) but you can post .txt, HTML, images, video, and audio. (The HTML goes in an `<iframe>` just to be safe.)
 
 <img className="centered" src="/img/my-feed.png" />
-
-You can make posts and see posts from your network, _and_ you can [fork the social media feed app](advanced/forking-hyperdrives.md) to change the styles and add new features.
-
 ---
 
 ## What next?
 
-From here, if you want to start hacking on some websites, read up on [creating new hyperdrives](beginner/creating-new-hyperdrives.md) and [using the editor](beginner/using-the-editor.md). If you love the idea of remixing other people's work, you should [learn about forking hyperdrives](advanced/forking-hyperdrives.md). If you're a fan of command lines, [check out dBrowser's Webterm](advanced/webterm.md).
+From here, if you want to start hacking on some websites, read up on [creating new ddrives](developers/creating-new-ddrives.md) and [using the editor](developers/using-the-editor.md). 
 
 The [dBrowser Developer Portal](https://dBrowser.dev/) has a directory of useful resources for getting into code:
 
-* [Templates](https://dBrowser.dev/docs/templates/). Pre-made hyperdrives you can copy.
+* [Templates](https://dBrowser.dev/docs/templates/). Pre-made ddrives you can copy.
 * [Tutorials](https://dBrowser.dev/docs/tutorials/). More developer-focused guides to teach you about building on dBrowser.
 
 You can also [find dBrowser's new Web APIs here](/#apis).

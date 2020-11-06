@@ -12,7 +12,7 @@ For many applications, this means that no server or backend is needed. You creat
 
 ## View & edit source
 
-Because dBrowser applications run on the client, the entire source of the app is available in the browser. dBrowser includes a [builtin editor](beginner/using-the-editor.md) so you can access this source code immediately.
+Because dBrowser applications run on the client, the entire source of the app is available in the browser. dBrowser includes a [builtin editor](developers/using-the-editor.md) so you can access this source code immediately.
 
 Hyperdrive is a complete filesystem and so dBrowser's editor can edit the files with no problem. You can build your entire application without ever using another tool.
 

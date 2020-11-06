@@ -5,7 +5,7 @@ description: This API provides read and write access to hyperdrives.
 
 The dDrive API provides read and write access to hyperdrives.
 
-You can use the API by instantiating dDrive instances using [.dDrive()](dbrowser.dDrive.md#beakerhyperdrivedriveurl) or by using the global methods. The global methods can accept paths or URLs. If you pass a path into a global method, the current dDrive will be used as the target. For example, if you were on a dDrive `dweb://foobar/`, the following three would be equivalent:
+You can use the API by instantiating dDrive instances using [.dDrive()] by using the global methods. The global methods can accept paths or URLs. If you pass a path into a global method, the current dDrive will be used as the target. For example, if you were on a dDrive `dweb://foobar/`, the following three would be equivalent:
 
 ```javascript
 await dbrowser.dDrive.readdir('/')
@@ -72,7 +72,7 @@ var myCopy = await dbrowser.dDrive.forkDrive(existingDriveUrl, {detached: true})
 
 Fetch metadata and system information about the dDrive.
 
-* **url** String. The URL of the dDrive to query. (Not required on `dDrive` objects returned by [dbrowser.dDrive.dDrive()](dbrowser.dDrive.md#beakerhyperdrivedriveurl).)
+* **url** String. The URL of the dDrive to query. (Not required on `dDrive` objects returned by [dbrowser.dDrive.dDrive()]
 * **opts** Object.
   * **timeout** Number (ms). How long to wait for the operation to complete before throwing a timeout error. Defaults to 60000.
 * Returns **Promise&lt;Object&gt;**.
