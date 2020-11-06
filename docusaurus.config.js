@@ -11,7 +11,7 @@ module.exports = {
         src: 'img/logo.svg',
         srcDark: 'img/logo-white.svg'
       },
-      links: [
+      items: [
         {
           href: 'https://dbrowser.com/install/',
           label: 'Install',
@@ -19,19 +19,19 @@ module.exports = {
           target: '_self',
         },
         {
-          href: 'https://beaker.dev/docs/templates/',
+          href: 'https://dbrowser.dev/docs/templates/',
           label: 'Templates',
           position: 'left',
           target: '_self',
         },
         {
-          href: 'https://beaker.dev/docs/tutorials/',
+          href: 'https://dbrowser.dev/docs/tutorials/',
           label: 'Tutorials',
           position: 'left',
           target: '_self',
         },
         {
-          href: 'https://github.com/dbrowser/beaker/discussions',
+          href: 'https://github.com/dbrowser/dbrowser/discussions',
           label: 'Ask Questions',
           position: 'left',
         },

@@ -37,7 +37,7 @@ module.exports = {
       'apis/dbrowser.panes',
       'apis/dbrowser.peersockets',
       'apis/dbrowser.shell',
-      'apis.dbrowser.terminal',
+      'apis/dbrowser.terminal',
     ],    
   },
 };
