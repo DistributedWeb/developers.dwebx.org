@@ -2,19 +2,19 @@
 title: Joining the Social Network
 ---
 
-Beaker includes a social network of personal websites. We call these websites the ["Profile Drives."](intermediate/your-profile-drive.md) Your profile drive acts as your personal space and your identity on the network. It's also used by applications to publish your content.
+dBrowser includes a social network of personal websites. We call these websites the ["Profile Drives."](intermediate/your-profile-drive.md) Your profile drive acts as your personal space and your identity on the network. It's also used by applications to publish your content.
 
 :::note
 Every user has a "Profile Hyperdrive" which represents them on the network. [Learn more](intermediate/your-profile-drive.md).
 :::
 
-In this guide, we're going to personalize your profile drive, find some other users to add to your address book, get you listed in Beaker's User Directory, and say hello on your social media feed.
+In this guide, we're going to personalize your profile drive, find some other users to add to your address book, get you listed in dBrowser's User Directory, and say hello on your social media feed.
 
 ---
 
 ## Customizing your profile drive
 
-During Beaker's setup, you filled out a name, picture, and bio for your profile. You can visit your profile drive by clicking your picture at the top right of the browser.
+During dBrowser's setup, you filled out a name, picture, and bio for your profile. You can visit your profile drive by clicking your picture at the top right of the browser.
 
 <img className="centered" src="/img/profile-button.png" />
 
@@ -65,14 +65,14 @@ Let's add a button! This button will help other users add your profile drive to 
   </body>
   <script>
     addContact.onclick = function () {
-      beaker.contacts.requestAddContact(location.toString())
+      dBrowser.contacts.requestAddContact(location.toString())
     }
   </script>
   <style>/* ... */</style>
 </html>
 ```
 
-Now your visitors have a quick way to follow your site! ([Read more about the beaker.contacts API](apis/beaker.contacts.md).)
+Now your visitors have a quick way to follow your site! ([Read more about the dBrowser.contacts API](apis/dBrowser.contacts.md).)
 
 Your profile name, bio, and picture [can be changed using the "Drive Properties" dialog](beginner/changing-a-drive-title-or-thumbnail.md). The profile page won't update automatically, but we can add that!
 
@@ -97,10 +97,10 @@ Your profile name, bio, and picture [can be changed using the "Drive Properties"
   </body>
   <script>
     addContact.onclick = function () {
-      beaker.contacts.requestAddContact(location.toString())
+      dBrowser.contacts.requestAddContact(location.toString())
     }
     async function setup () {
-      var info = await beaker.hyperdrive.getInfo()
+      var info = await dBrowser.hyperdrive.getInfo()
       title.textContent = info.title
       description.textContent = info.description
     }
@@ -110,7 +110,7 @@ Your profile name, bio, and picture [can be changed using the "Drive Properties"
 </html>
 ```
 
-Now your profile drive will read your name and bio on load and display it on the page. ([Read more about the beaker.hyperdrive API.](apis/beaker.hyperdrive.md))
+Now your profile drive will read your name and bio on load and display it on the page. ([Read more about the dBrowser.hyperdrive API.](apis/dBrowser.hyperdrive.md))
 
 ---
 
@@ -118,7 +118,7 @@ Now your profile drive will read your name and bio on load and display it on the
 
 It's feeling pretty lonely in here! Let's find some people to add to [your address book](intermediate/your-address-book.md).
 
-Beaker maintains a [user directory](https://userlist.beakerbrowser.com/). You can find a link to it in the top right of the UI.
+dBrowser maintains a [user directory](https://userlist.dBrowserbrowser.com/). You can find a link to it in the top right of the UI.
 
 <img className="centered" src="/img/user-directory.png" />
 
@@ -163,11 +163,11 @@ You can make posts and see posts from your network, _and_ you can [fork the soci
 
 ## What next?
 
-From here, if you want to start hacking on some websites, read up on [creating new hyperdrives](beginner/creating-new-hyperdrives.md) and [using the editor](beginner/using-the-editor.md). If you love the idea of remixing other people's work, you should [learn about forking hyperdrives](advanced/forking-hyperdrives.md). If you're a fan of command lines, [check out Beaker's Webterm](advanced/webterm.md).
+From here, if you want to start hacking on some websites, read up on [creating new hyperdrives](beginner/creating-new-hyperdrives.md) and [using the editor](beginner/using-the-editor.md). If you love the idea of remixing other people's work, you should [learn about forking hyperdrives](advanced/forking-hyperdrives.md). If you're a fan of command lines, [check out dBrowser's Webterm](advanced/webterm.md).
 
-The [Beaker Developer Portal](https://beaker.dev/) has a directory of useful resources for getting into code:
+The [dBrowser Developer Portal](https://dBrowser.dev/) has a directory of useful resources for getting into code:
 
-* [Templates](https://beaker.dev/docs/templates/). Pre-made hyperdrives you can copy.
-* [Tutorials](https://beaker.dev/docs/tutorials/). More developer-focused guides to teach you about building on Beaker.
+* [Templates](https://dBrowser.dev/docs/templates/). Pre-made hyperdrives you can copy.
+* [Tutorials](https://dBrowser.dev/docs/tutorials/). More developer-focused guides to teach you about building on dBrowser.
 
-You can also [find Beaker's new Web APIs here](/#apis).
+You can also [find dBrowser's new Web APIs here](/#apis).

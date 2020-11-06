@@ -1,5 +1,5 @@
 {
-  "name": "docs.beakerbrowser.com",
+  "name": "docs.dbrowser.com",
   "private": true,
   "scripts": {
     "start": "docusaurus start",

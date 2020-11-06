@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'Beaker Docs',
-  url: 'https://docs.beakerbrowser.com',
+  title: 'dBrowser Docs',
+  url: 'https://docs.dbrowser.com',
   baseUrl: '/',
   favicon: 'img/favicon.png',
   themeConfig: {
     navbar: {
-      title: 'Beaker Docs',
+      title: 'dBrowser Docs',
       logo: {
-        alt: 'Beaker Logo',
+        alt: 'dBrowser Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-white.svg'
       },
       links: [
         {
-          href: 'https://beakerbrowser.com/install/',
+          href: 'https://dbrowser.com/install/',
           label: 'Install',
           position: 'left',
           target: '_self',
@@ -31,7 +31,7 @@ module.exports = {
           target: '_self',
         },
         {
-          href: 'https://github.com/beakerbrowser/beaker/discussions',
+          href: 'https://github.com/dbrowser/beaker/discussions',
           label: 'Ask Questions',
           position: 'left',
         },
@@ -39,7 +39,7 @@ module.exports = {
     },
     algolia: {
       apiKey: '8e801593bf85623c9a64dfd9470d06ab',
-      indexName: 'beakerbrowser'
+      indexName: 'dbrowser'
     }
   },
   presets: [
@@ -48,7 +48,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/beakerbrowser/docs.beakerbrowser.com/edit/master/',
+          editUrl: 'https://github.com/dbrowser/docs.dbrowser.com/edit/master/',
           routeBasePath: '/',
         },
         theme: {
