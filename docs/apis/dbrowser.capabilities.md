@@ -3,7 +3,7 @@ title: dbrowser.capabilities
 description: This API creates temporary URLs for safely sharing dDrive access between applications
 ---
 
-"Capabilities" are opaque URLs which map to hyperdrives while hiding the URL. The name comes from the [capabilities security model](https://en.wikipedia.org/wiki/Capability-based_security).
+"Capabilities" are opaque URLs which map to ddrives while hiding the URL. The name comes from the [capabilities security model](https://en.wikipedia.org/wiki/Capability-based_security).
 
 The purpose of capability URLs is to provide security primitives for constrained access to a dDrive. The default security model of a dDrive is that the pubkey URL provides read access locally and over the network. Because the pubkey is unchangeable, it's impossible to revoke access to a pubkey once it's acquired. The "capability URLs" are local mappings from random IDs to the dDrive pubkeys, and therefore can provide read access without giving away the pubkey.
 

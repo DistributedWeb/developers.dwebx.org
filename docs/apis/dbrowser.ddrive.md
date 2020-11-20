@@ -1,9 +1,9 @@
 ---
 title: dbrowser.dDrive
-description: This API provides read and write access to hyperdrives.
+description: This API provides read and write access to ddrives.
 ---
 
-The dDrive API provides read and write access to hyperdrives.
+The dDrive API provides read and write access to ddrives.
 
 You can use the API by instantiating dDrive instances using [.dDrive()] by using the global methods. The global methods can accept paths or URLs. If you pass a path into a global method, the current dDrive will be used as the target. For example, if you were on a dDrive `dweb://foobar/`, the following three would be equivalent:
 
@@ -13,7 +13,7 @@ await dbrowser.dDrive.readdir('dweb://foobar/')
 await dbrowser.dDrive.dDrive('dweb://foobar/').readdir('/')
 ```
 
-A dDrive is always allowed to read and write its own files. Applications must ask permission before writing to other hyperdrives.
+A dDrive is always allowed to read and write its own files. Applications must ask permission before writing to other ddrives.
 
 ## API
 
@@ -47,7 +47,7 @@ Create a new dDrive.
 ```javascript
 var dDrive = await dbrowser.dDrive.createDrive({
   title: 'My cool website',
-  description: 'Demonstrating how to create Hyperdrives'
+  description: 'Demonstrating how to create dDrives'
 })
 ```
 
@@ -296,7 +296,7 @@ await dbrowser.dDrive.symlink('dweb://1234..ef/this-file-already-exists.txt', 'd
 
 ### dbrowser.dDrive.mount(url, mount\[, opts\])
 
-Create a mount on the dDrive to some other dDrive. (Mounts are like symlinks that work across hyperdrives.) Note: we know, we know, the argument order is the opposite of symlink.
+Create a mount on the dDrive to some other dDrive. (Mounts are like symlinks that work across ddrives.) Note: we know, we know, the argument order is the opposite of symlink.
 
 * **url** String. Where to place the mount.
 * **mount** String\|Object\|dDrive. The dDrive to mount. If a String or dDrive, acts as the key attribute.
@@ -313,7 +313,7 @@ await dbrowser.dDrive.mount('dweb://1234..ef/mount2', {key: 'fedcb..12', version
 
 ### dbrowser.dDrive.copy(src, dst\[, opts\])
 
-Copy a file or folder. Works across hyperdrives.
+Copy a file or folder. Works across ddrives.
 
 * **src** String. Where to copy the files from.
 * **dst** String. Where to copy the files to.
@@ -327,7 +327,7 @@ await dbrowser.dDrive.copy('dweb://1234..ef/foo.txt', 'dweb://1234..ef/bar.txt')
 
 ### dbrowser.dDrive.rename(src, dst\[, opts\])
 
-Move a file or folder. Works across hyperdrives.
+Move a file or folder. Works across ddrives.
 
 * **src** String. Where to move the files from.
 * **dst** String. Where to move the files to.

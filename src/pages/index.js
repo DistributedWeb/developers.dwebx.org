@@ -40,7 +40,7 @@ function Home() {
               <ul className={styles['links-list']}>
                 <li><Link to="/apis/dbrowser.capabilities"><span>dbrowser.capabilities</span><span>Create temporary, revocable URLs which map to ddrives.</span></Link></li>
                 <li><Link to="/apis/dbrowser.contacts"><span>dbrowser.contacts</span><span>Read and manage the user's address book.</span></Link></li>
-                <li><Link to="/apis/dbrowser.ddrive"><span>dbrowser.ddrive</span><span>Methods to read and write Hyperdrive data.</span></Link></li>
+                <li><Link to="/apis/dbrowser.ddrive"><span>dbrowser.ddrive</span><span>Methods to read and write dDrive data.</span></Link></li>
                 <li><Link to="/apis/dbrowser.markdown"><span>dbrowser.markdown</span><span>Render Markdown into HTML.</span></Link></li>
                 <li><Link to="/apis/dbrowser.panes"><span>dbrowser.panes</span><span>Interact with other active panes in the tab.</span></Link></li>
                 <li><Link to="/apis/dbrowser.peersockets"><span>dbrowser.peersockets</span><span>Send and receive messages to peers on a ddrive.</span></Link></li>
@@ -70,12 +70,11 @@ function Home() {
             <div className={classnames('col col--6', styles.section)}>
               <h2 id="developers">Resource</h2>
               <ul className={styles['links-list']}>
-                <li><Link to="/resources/content-type-negotiation"><span>Introduction to Hyperdrive</span><span>An overview of dBrowser's peer-to-peer tech</span></Link></li>
+              <li><Link to="/resources/what-is-a-ddrive"><span>Introduction to DDrive</span><span>An overview of dBrowser's peer-to-peer tech</span></Link></li>
                 <li><Link to="/resources/frontends-.ui-folder"><span>Index.json Manifest</span><span>Information about the ddrive manifest file, <code>index.json</code>.</span></Link></li>
                 <li><Link to="/resources/goto-files"><span>Content-Type Negotiation</span><span>How <code>dweb://</code> handles URLs without extensions.</span></Link></li>
                 <li><Link to="/resources/hole-punchability"><span>Frontends (.ui folder)</span><span>A tool to inject HTML output into every browsed resource.</span></Link></li>
                 <li><Link to="/resources/index.json-manifest"><span>Goto Files</span><span>Files which act like shortcuts.</span></Link></li>
-                <li><Link to="/resources/what-is-a-ddrive"><span>Introduction to Hyperdrive</span><span>An overview of dBrowser's peer-to-peer tech</span></Link></li>
               </ul>
             </div>
           </div>

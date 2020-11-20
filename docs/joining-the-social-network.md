@@ -65,7 +65,7 @@ Your profile name, bio, and picture [can be changed using the "Drive Properties"
       dBrowser.contacts.requestAddContact(location.toString())
     }
     async function setup () {
-      var info = await dBrowser.hyperdrive.getInfo()
+      var info = await dBrowser.ddrive.getInfo()
       title.textContent = info.title
       description.textContent = info.description
     }

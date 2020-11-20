@@ -14,7 +14,7 @@ For many applications, this means that no server or backend is needed. You creat
 
 Because dBrowser applications run on the client, the entire source of the app is available in the browser. dBrowser includes a [builtin editor](developers/using-the-editor.md) so you can access this source code immediately.
 
-Hyperdrive is a complete filesystem and so dBrowser's editor can edit the files with no problem. You can build your entire application without ever using another tool.
+dDrive is a complete filesystem and so dBrowser's editor can edit the files with no problem. You can build your entire application without ever using another tool.
 
 ## Distributed (and reduced) costs
 
@@ -22,10 +22,10 @@ When you don't have to set up a server, you don't have to _pay_ for a server. Ef
 
 ## A global hypermedia filesystem
 
-Hyperdrive is a filesystem where every folder and file has a URL. Everything is linkable, and everything is accessible over the Internet (pursuant to access controls, of course).
+dDrive is a filesystem where every folder and file has a URL. Everything is linkable, and everything is accessible over the Internet (pursuant to access controls, of course).
 
 Applications use this linkability to join data across users and apps. There are no data siloes on the dBrowser Web.
 
 ## Versioned data
 
-Hyperdrive is a versioned filesystem. You can access old revisions of files and link to pinned versions. This is helpful for referencing specific copies, viewing changes over time, and recovering from bad writes or deletes.
+dDrive is a versioned filesystem. You can access old revisions of files and link to pinned versions. This is helpful for referencing specific copies, viewing changes over time, and recovering from bad writes or deletes.
