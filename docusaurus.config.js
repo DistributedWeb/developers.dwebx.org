@@ -44,7 +44,7 @@ module.exports = {
     googleAnalytics: {
       trackingID: 'G-FZX9NVXJF9',
       // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
+      // anonymizeIP: true, // Should IPs be anonymized?
     }
   },
   presets: [
