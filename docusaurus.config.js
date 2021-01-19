@@ -3,7 +3,6 @@ module.exports = {
   url: 'https://docs.dbrowser.com',
   baseUrl: '/',
   favicon: 'img/favicon.png',
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: 'dBrowser Docs',
