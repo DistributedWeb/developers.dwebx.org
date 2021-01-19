@@ -40,6 +40,11 @@ module.exports = {
     algolia: {
       apiKey: '8e801593bf85623c9a64dfd9470d06ab',
       indexName: 'dbrowser'
+    },
+    googleAnalytics: {
+      trackingID: 'G-FZX9NVXJF9',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     }
   },
   presets: [
