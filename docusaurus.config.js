@@ -1,37 +1,37 @@
 module.exports = {
-  title: 'dBrowser Docs',
-  url: 'https://docs.dbrowser.com',
+  title: 'dWeb Docs',
+  url: 'https://developers.dwebx.org',
   baseUrl: '/',
-  favicon: 'img/favicon.png',
+  favicon: 'img/dweb-logo.png',
   themeConfig: {
     navbar: {
-      title: 'dBrowser Docs',
+      title: 'dWeb Docs',
       logo: {
         alt: 'dBrowser Logo',
-        src: 'img/logo.svg',
+        src: 'img/dweb-logo.png',
         srcDark: 'img/logo-white.svg'
       },
       items: [
         {
-          href: 'https://peepsx.com/dbrowser',
-          label: 'Install DBrowser',
+          href: 'http://dbrowser.com',
+          label: 'Download dBrowser',
           position: 'left',
           target: '_self',
         },
         {
-          href: 'https://peepsx.com/dwallet',
-          label: 'dWallet',
+          href: 'https://docs.arisen.network',
+          label: 'ARISEN Docs',
           position: 'left',
           target: '_self',
         },
         {
-          href: 'https://dwebx.org',
-          label: 'About dWeb',
+          href: 'https://docs.dbrowser.com',
+          label: 'dBrowser Docs',
           position: 'left',
           target: '_self',
         },
         {
-          href: 'https://t.me/peepsology',
+          href: 'https://t.me/dweb1776',
           label: 'Support',
           position: 'left',
         },
@@ -53,7 +53,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/dbrowser/docs.dbrowser.com/edit/master/',
+          editUrl: 'https://github.com/DistributedWeb/developers.dwebx.org/edit/master/',
           routeBasePath: '/',
         },
         theme: {

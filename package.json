@@ -1,5 +1,5 @@
 {
-  "name": "docs.dbrowser.com",
+  "name": "developers.dwebx.org",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
