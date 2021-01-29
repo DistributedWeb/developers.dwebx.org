@@ -15,7 +15,7 @@ function Home() {
       <main>
         <div className="container">
           <section className={styles['links-grid']}>
-            <Link to="/introduction">
+            <Link to="/introduction/welcome">
               <img src="/img/dweb-logo.png" style={{height:50,width:50}} /> <span>Introduction</span>
             </Link>
             {/* <Link to="/developers/using-the-editor">
