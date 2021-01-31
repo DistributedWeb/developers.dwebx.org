@@ -62,3 +62,23 @@ img.centered {
   margin-bottom: var(--ifm-leading);
   border: 1px solid #bbb;
 }
+
+#homestyle{
+  display: block;
+}
+#homestyle img {
+  margin: auto;
+  border: none;
+  max-width: 92px;
+  height: auto;
+  padding-top: 20px;
+}
+#homestyle span {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10% 0;
+}
+#homestyle a{
+  border-radius: 10px;
+  background-color: #76818a0d;
+}
