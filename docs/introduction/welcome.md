@@ -2,4 +2,14 @@
 title: Welcome
 ---
 
-# Coming soon
+Welcome to the dWeb Developer Guide. Making the transition from developing apps and websites on the World Wide Web, to developing fully decentralized experiences on the dWeb may seem challenging, but it's actually much easier than you may think. This guide was designed to help assist developers who do not have a blockchain development background, to hit the ground running with dWeb development. This release starts off with an in-depth explanation of the many protocols within the DWEB Protocol Suite, the basics surrounding dWeb-based software development, an overview of dWeb's many developer tools and APIs, and then explains how to create a backend, interact with your backend from the frontend, authenticate users, distribute large datasets, accept payments, package your apps for distribution on the dWeb and more. While this guide is a 20,000 foot view, it should help kickstart your development journey on The People's Web.
+
+### The Power Of dWeb Development
+The protocols that power the dWeb are "fat", which allows for the apps built on top of it to be "thin". It may shock you how quickly apps can be built on the dWeb, considering how thin they are. Perhaps the most shocking part for me is how powerful they are. While building apps on the dWeb may be a bit different than building apps on the centralized web, you are still able to use the languages and frameworks you love, while building experiences that people will appreciate. If you're a JavaScript developer who loves React.JS and React-Native, you will have a blast creating dWeb experiences. The same goes for iOS and Android developers who prefer to build native experiences using Swift and Java.
+
+### The Developer Ecosystem 
+The ecosystem surrounding the dWeb is actively growing, which is allowing dWeb-powered applications to exist far beyond just dWeb-enabled web browsers like dBrowser. Backends (smart contracts) are being built on top of the ARISEN blockchain and must be written in C++, while many JavaScript libraries like [ArisenJS](https://github.com/arisenio/arisenjsv1), [ARISEN Swift](https://github.com/arisenio/arisen-swift) and [ARISEN Java](https://github.com/arisenio/arisen-java) can be used to interact with these backends, on a cross-platform basis. dWeb's off-chain peer discovery, file storage and data communication protocols are written in Node.JS and have many Node implementations, which makes implementing dWeb's many off-chain facilities into your frontend, easier than it has ever been, even on mobile devices, if you're into using React Native. For those who prefer to integrate dWeb's off-chain facilities into their mobile applications natively, we're actively working on Swift and Java SDKs for the dWeb as well. 
+
+:::note
+We hope you enjoy this guide! Every day there are new additions to our growing ecosystem and it's developers like you who are building those solutions. If you would like to join our effort, feel free to join our developer community on Telegram [here](https://t.me/dweb1776).
+:::
