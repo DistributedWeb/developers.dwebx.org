@@ -2,7 +2,7 @@
 title : DHT Frameworks
 ---
 
-Interfacing with dWeb's DHT can be accomplished by using the [`@dwebswarm/dht`](https://github.com/distributedweb/dht) Node.JS module. There are also higher-level networking APIs that are discussed [here](/toolbox/dweb-networking.api).
+Interfacing with dWeb's DHT can be accomplished by using the [`@dwebswarm/dht`](https://github.com/distributedweb/dht) Node.JS module. There are also higher-level networking APIs that are discussed [here](/toolbox/dweb-networking-api).
 
 You can use this module to do the following:
 - Create a dWeb-based DHT node

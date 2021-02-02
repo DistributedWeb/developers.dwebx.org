@@ -35,7 +35,7 @@ For a full list of signature providers, check out the Toolbox and [Universal Aut
 Authenticators are applications that implement ARISEN's authentication protocols through the handling of key storage and transaction signing. Applications can integrate with authenticators to simplify the user-authentication process.
 
 :::note
-For more on authenticators, see [Using Authenticators](/authentication/using-authentication).
+For more on authenticators, see [Using Authenticators](/authentication/using-authenticators).
 :::
 
 ### Universal Authentication Layer

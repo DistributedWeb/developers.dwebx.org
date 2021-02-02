@@ -51,6 +51,7 @@ module.exports = {
       'authentication/authenticating-users',
       'authentication/using-authenticators',
       'authentication/cross-platform-signing',
+      'authentication/authenticating-accounts-and-actions',
     ],
     Data: [
       'data/using-distributed-data-feeds',
