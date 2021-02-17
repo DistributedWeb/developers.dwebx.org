@@ -2,7 +2,7 @@
 title : Creating A DHT Node
 ---
 
-One of the most powerful features of the dWeb, is how network data is distributed amongst its users. Many developers like [Peeps](https://peepsx.com), make an honest effort to ensure that each of their applications, when installed on a user's device, act as a DHT node on the network because it's important to the growth of dWeb's network and further decentralizes the dWeb in the process. Using [@dwebswarm/dht](https://github.com/distributedweb/dht) this is easy. In order to integrate `@dwebswarm/dht` into your application, do the following:
+One of the most powerful features of the dWeb, is how network data is distributed amongst its users. Many developers like [Peeps](https://peepsx.com), make an honest effort to ensure that each of their applications, when installed on a user's device, act as a DHT node on the network because it's important to the growth of dWeb's network and further decentralizes the dWeb in the process. Using [@dwebswarm/dht](https://github.com/distributedweb/dht) makes this easy. In order to integrate `@dwebswarm/dht` into your application, do the following:
 
 :::note
 The [dWebSwarm DHT](https://github.com/distributedweb/dht) library is one way of interacting with dWeb's DHT, but this can also be done using higher level APIs like [dWebSwarm Discovery](https://github.com/distributedweb/discovery), [dWebSwarm Network](https://github.com/distributedweb/network) and [dWebSwarm](https://github.com/distributedweb/dwebswarm), which are all built on top of `dWebSwarm DHT`.

@@ -29,7 +29,7 @@ Data can be stored via a blockchain like ARISEN, or it can be stored off-chain v
 While data is distributed between peers using the [dDatabase Protocol](/protocols/the-suite/) messaging protocol, it can also be used by applications and even groups of peers to exchange messages between each other, entirely off-chain.
 
 ### Name Resolution
-The dWeb utilizes a decentralized domain name system (dDNS). dTLDs (Decentralized top-level domains) are powered by an ARISEN and records for domains are distributed within dDrives using RRML (Resource Record Markup Language).
+The dWeb utilizes a decentralized domain name system (dDNS). dTLDs (Decentralized top-level domains) are powered by an ARISEN smart contract and records for domains are distributed within dDrives using RRML (Resource Record Markup Language).
 
 ### Payments
 The dWeb does not work with centralized payment processors, since all software is open and API keys for these services would be out in the open as well. On the other hand, the dWeb is made to work with decentralized payment processing platforms, and decentralized currencies like Bitcoin, Ethereum, RISE and others.

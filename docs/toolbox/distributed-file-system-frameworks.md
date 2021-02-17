@@ -25,7 +25,7 @@ We have launched a Node.JS client for interacting with dDrive Daemon programmati
 - [dDrive Daemon Schema](https://github.com/distributedweb/ddrive-schemas)
 
 ### dDrive Node.JS API
-You can easily integrate dDrives into your applications using dDrive's Node.JS API, explained [here](/ddrives/ddrives-node-api).
+You can easily integrate dDrives into your applications using dDrive's Node.JS API, described [here](/ddrives/ddrives-node-api).
 
 :::caution
 #### What's next?

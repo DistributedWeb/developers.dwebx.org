@@ -15,8 +15,8 @@ You can use this module to do the following:
 - Retrieve an immutable value in the DHT
 - Fetch all matching immutable values from the DHT
 - Generate keypairs for storing mutable values on the DHT
-- Utility method for creating a random or hashed salt value
-- Utility method for creating a digital signature from a value
+- Create a random or hashed salt value
+- Create a digital signature from a value
 - Store a mutable value on the DHT
 - Get a mutable value on the DHT
 

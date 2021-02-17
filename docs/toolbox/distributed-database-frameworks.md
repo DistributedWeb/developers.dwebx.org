@@ -39,7 +39,7 @@ This powerful Node.JS implementation of dDatabase will allow you to do the follo
 - Create custom extensions and send extension-based messages to connected peers
 
 ### [`ddatabase-protocol`](https://github.com/distributedweb/ddatabase-protocol)
-This Node.JS implementation of the dDatabase Protocol is built into `ddatabase`, but can be used separately to open protocol streams and exchange all of the protocol message types included in the protocol destination. You can also use a simplified version of the protocol by using the [simple-ddatabase-protocol](https://github.com/distributedweb/simple-ddatabase-protocol) Node.JS module.
+This Node.JS implementation of the dDatabase Protocol is built into `ddatabase`, but can be used separately to open protocol streams and exchange all of the protocol message types included in the protocol definition. You can also use a simplified version of the protocol by using the [simple-ddatabase-protocol](https://github.com/distributedweb/simple-ddatabase-protocol) Node.JS module.
 
 ### [`dwebstore`](https://github.com/distributedweb/dwebstore)
 The `dwebstore` Node.JS module is a canonical implementation of the "dwebstore" interface, which exposes a dDatabase factory and a set of associated functions for managing generated dDatabases. Essentially, a `dwebstore` is designed to efficiently store and replicate multiple sets of interlinked dDatabases. This module is used by the `ddrive` module to allow for dDrives to be mounted within other dDrives.

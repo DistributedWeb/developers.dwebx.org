@@ -35,19 +35,19 @@ If you have built your own authenticator and would like to build your own UAL pl
 There are various signature providers that can also be used to interface with authenticators, or to build your own authenticators. Signature providers are displayed below, by language.
 
 #### JavaScript Signature Providers
-- [ArisenJS Signature Provider Interface](https://github.com/arisenio/arisen-signature-provider-interface) - A signature provider interface for interacting with AATP-ready authenticators.
-- [ArisenJS iOS Browser Signature Provider Interface](https://github.com/arisenio/arisen-ios-browser-signature-provider-interface) - A signature provider interface for communicating with AATP-ready authenticators from iOS Safari.
-- [ArisenJS Window Message Signature Provider Interface](https://github.com/arisenio/arisenjs-window-message-signature-provider-interface) - A signature provider interface for communicating with an AATP-ready authenticator over the Window Messaging API.
-- [ArisenJS Ledger Signature Provider](https://github.com/arisenio/arisenjs-ledger-signature-provider) - When plugged into `arisenjs`, this signature provider enables applications to route signing requests to a ledger device.
+- [ArisenSDK Signature Provider Interface](https://github.com/arisenio/arisen-signature-provider-interface) - A signature provider interface for interacting with AATP-ready authenticators.
+- [ArisenSDK iOS Browser Signature Provider Interface](https://github.com/arisenio/arisen-ios-browser-signature-provider-interface) - A signature provider interface for communicating with AATP-ready authenticators from iOS Safari.
+- [ArisenSDK Window Message Signature Provider Interface](https://github.com/arisenio/ArisenSDK-window-message-signature-provider-interface) - A signature provider interface for communicating with an AATP-ready authenticator over the Window Messaging API.
+- [ArisenSDK Ledger Signature Provider](https://github.com/arisenio/ArisenSDK-ledger-signature-provider) - When plugged into `ArisenSDK`, this signature provider enables applications to route signing requests to a ledger device.
 
 #### Java Signature Providers
-- [ARISEN Java Softkey Signature Provider](https://github.com/arisenio/arisen-java-softkey-signature-provider) - A signature provider that is a pluggable signature provider for the [ARISEN Java SDK)(https://github.com/arisenio/arisen-java) that allows for signing transactions using in-memory SECP256K1 and SECP256R1 keys.
+- [ARISEN Java Softkey Signature Provider](https://github.com/arisenio/arisen-java-softkey-signature-provider) - A signature provider that is a pluggable signature provider for the [ARISEN Java SDK](https://github.com/arisenio/arisen-java) that allows for signing transactions using in-memory SECP256K1 and SECP256R1 keys.
 - [ARISEN Android Keystore Signature Provider](https://github.com/arisenio/arisen-android-keystore-signature-provider) - A signature provider that is pluggable for ARISEN's Java SDK, and allows for signing transactions using Android keystore keys. Written in Kotlin.
 
 #### Swift Signature Providers
 - [ARISEN Swift Softkey Signature Provider](https://github.com/arisenio/arisen-swift-softkey-signature-provider) - A signature provider for signing transactions using in-memory K1 keys. Is pluggable into [ARISEN's Swift SDK](https://github.com/arisenio/arisen-swfit).
 - [ARISEN Swift Vault](https://github.com/arisenio/arisen-swift-vault) - Vault is a utility library for working with public/private keys and signing with Apple's Keychain and Secure Enclave.
-- [ARISEN Swift Vault Signature Provider](https://github.com/arisenio/arisen-swift-vault-signature-provider) - A signature provider that is pluggable into ARISEN's SwiftSDK and allows for the signing of transactions using keys stored in Apple's Keychain and the device's Secure Enclave.
+- [ARISEN Swift Vault Signature Provider](https://github.com/arisenio/arisen-swift-vault-signature-provider) - A signature provider that is pluggable into ARISEN's Swift SDK and allows for the signing of transactions using keys stored in Apple's Keychain and the device's Secure Enclave.
 
 :::note
 There are several SDKs as well as other tools that can be used to interact with ARISEN, discussed [here](/toolbox/interacting-with-arisen).

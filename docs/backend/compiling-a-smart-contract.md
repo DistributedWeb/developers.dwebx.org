@@ -3,7 +3,7 @@ title : Compiling A Smart Contract
 ---
 
 
-Compiling and deploying smart contracts on ARISEN requires a tool called [ARISEN CDT](https://github.com/arisenio/arisen.cdt). To install ARISEN CDT, follow the instructions below:
+Compiling and deploying smart contracts on ARISEN requires a kit called [ARISEN CDT](https://github.com/arisenio/arisen.cdt). To install ARISEN CDT, follow the instructions below:
 
 ### Installing ARISEN CDT
 ```shell {}
@@ -25,7 +25,7 @@ class [[arisen::contract]] hello : public contract {
     using contract::contract;
 
     [[arisen::action]]
-    voice hi(name user) {
+    void hi(name user) {
       print ("Hello, ", user);
     }
 };

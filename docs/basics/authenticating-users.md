@@ -17,11 +17,11 @@ ARISEN has several authentication protocols that can be utilized to exchange det
 - B. Only has to interact with an authenticator for a particular action type once, where all future occurrences are handled in the background automatically (i.e., a user allows the authenticator to sign all future "post" actions from a social network without further input from the user).
 
 :::note
-You can learn more about ARISEN's various authentication protocols like AATP and ASR in [Authentication Accounts & Actions](/authentication/authenticating-accounts-and-actions).
+You can learn more about ARISEN's various authentication protocols like AATP and ASR in [Authenticating Accounts & Actions](/authentication/authenticating-accounts-and-actions).
 :::
 
 ### Signature Providers
-Signature protocols are responsible for:
+Signature providers are responsible for:
 - A. Finding out what keys are available for signing.
 - B. Requesting and obtaining transaction signatures with a subset of the available keys.
 
